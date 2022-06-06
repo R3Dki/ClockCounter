@@ -1,6 +1,5 @@
 #!/bin/sh
 #variables
-NOCOLOR=
 DELTA=0
 FREQUENCY=0
 #calibration
@@ -35,6 +34,6 @@ while [[ TRUE ]]; do
     COLOR=$'\e[0;32m'
   fi
   #output
-  printf %s%s%.3f%s\\n%s%s%.3f%s\\n%s%.3f%s\\n "Clock Frequency: " $COLOR "$FREQUENCY" "GHz" $'\e[0m' "Reference Value: " "$REFVAL" "$GHz" "Difference: " "$DELTA" "MHz"
+  printf %s%s%.3f%s\\n%s%s%.3f%s\\n%s%.3f%s\\n "Clock Frequency: " $COLOR "$FREQUENCY" "GHz" $'\e[0m' "Reference Value: " "$REFVAL" "GHz" "Difference: " "$DELTA" "MHz"
   FREQUENCY=0
 done
