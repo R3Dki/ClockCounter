@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 #variables
 DELTA=0
 FREQUENCY=0
