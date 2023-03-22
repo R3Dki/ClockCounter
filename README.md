@@ -8,3 +8,5 @@ NOTE: I advise you run this program at least 2/3 times to get the most precise v
 
 It depends on: bc, cat
 I made it to learn bash basics and since i don't have creativity, while creating a clock frequency detector for mindustry to learn how to use processors, i decided to convert it to arduino and then my computer.
+
+I also uploaded an arduino version.
