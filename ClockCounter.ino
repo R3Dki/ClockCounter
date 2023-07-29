@@ -11,7 +11,7 @@ void loop() {
     sumCount++;
   }else{
     frequency = sumCount*0.000053333;
-    Serial.println("ATMega Clock Frequency: " + (String)frequency + "MHz");
+    Serial.println("CPU Clock Frequency: " + (String)frequency + "MHz");
     sumCount = 0;
     prevTime = millis();
   }
