@@ -10,3 +10,10 @@ It depends on: bc, cat
 I made it to learn bash basics and since i don't have creativity, while creating a clock frequency detector for mindustry to learn how to use processors, i decided to convert it to arduino and then my computer.
 
 I also uploaded an arduino version.
+
+#Arduino
+The Arduino version seems to work perfectly fine.
+Tested on:
+Arduino UNO Rev3
+Arduino Mega 2560
+ST Nucleo 64-F446RE
