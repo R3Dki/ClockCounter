@@ -11,9 +11,9 @@ I made it to learn bash basics and since i don't have creativity, while creating
 
 I also uploaded an arduino version.
 
-#Arduino
-The Arduino version seems to work perfectly fine.
-Tested on:
-Arduino UNO Rev3
-Arduino Mega 2560
+# Arduino
+The Arduino version works perfectly fine.<br>
+Tested on:<br>
+Arduino UNO Rev3<br>
+Arduino Mega 2560<br>
 ST Nucleo 64-F446RE
