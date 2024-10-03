@@ -10,7 +10,7 @@ void loop() {
   if (delta < 1000) {
     sumCount++;
   }else{
-    frequency = sumCount*0.000053333;
+    frequency = sumCount*0.000053333; // Magic number that converts the sumCount to frequency
     Serial.println("CPU Clock Frequency: " + (String)frequency + "MHz");
     sumCount = 0;
     prevTime = millis();
